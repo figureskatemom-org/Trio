@@ -208,6 +208,7 @@ jobs:
           #curl https://github.com/loopandlearn/G7SensorKit/commit/ba44beb3d1491c453f4f438443c3f8ba29146ab3.patch | git apply --directory=G7SensorKit -v --whitespace=fix
           #curl https://github.com/loopandlearn/G7SensorKit/commit/d86ac8e9cd523d1267587dd70c96597125eef7ab.patch | git apply --directory=G7SensorKit -v --whitespace=fix
           #curl https://github.com/loopandlearn/G7SensorKit/commit/205054e7537723c2aec58d807634b4853f687244.patch | git apply --directory=G7SensorKit -v --whitespace=fix
+          curl https://github.com/LoopKit/OmniBLE/commit/9992773e13ad36f1f075268f5ddf62d7ce4491f3.patch | git apply --directory=OmniBLE -v --whitespace=fix
 
           # Add patches for additional customization by following the templates above,
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
